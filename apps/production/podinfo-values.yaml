@@ -11,7 +11,7 @@ spec:
     replicaCount: 1
     hpa:
       enabled: true
-      maxReplicas: 5
+      maxReplicas: 2
     ingress:
       hosts:
         - host: podinfo.production
